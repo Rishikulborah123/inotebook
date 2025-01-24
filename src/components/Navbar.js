@@ -127,11 +127,11 @@ const Navbar = () => {
             </form>
           </div>
         </div>
-        {!localStorage.getItem("token") ? <div className='d-flex'>
-          <NavLink className="btn btn-primary mx-2" to="/login" role="button">Login </NavLink>
-          <NavLink className="btn btn-primary mx-1 " to="/signup" role="button">Signup</NavLink>
+        {!localStorage.getItem("token") ? <div className='d-flex ms-auto justify-content-end'>
+          <NavLink className="btn btn-primary mx-2 mt-2  " to="/login" role="button">Login </NavLink>
+          <NavLink className="btn btn-primary mx-1 mt-2  " to="/signup" role="button">Signup</NavLink>
         </div> : <><i style={{ color: "white", cursor: "pointer" }} className="fa-regular fa-user mx-3" onClick={handleUser} />
-          <button className="btn btn-primary mx-2" onClick={handleLogOut}>Logout</button></>}
+          <button className="btn btn-primary mx-2 " onClick={handleLogOut}>Logout</button></>}
       </nav>
 
     </div>

@@ -72,7 +72,7 @@ const About = () => {
                   Why Choose iNotebook?
                 </text>
               </svg>
-              <div className="carousel-caption  d-md-block">
+              <div className="carousel-caption  ">
                 <h5>Cloud-Based Storage:</h5>
                 <p>Access your notes anytime, anywhere, on any device. No more worries about losing data due to device failure or accidental deletion.</p>
               </div>
@@ -102,7 +102,7 @@ const About = () => {
                   Why Choose iNotebook?
                 </text>
               </svg>
-              <div className="carousel-caption d-none d-md-block">
+              <div className="carousel-caption ">
                 <h5>Enhanced Security:</h5>
                 <p>Your personal information is protected with state-of-the-art encryption, giving you peace of mind.</p>
               </div>
@@ -132,7 +132,7 @@ const About = () => {
                   Why Choose iNotebook?
                 </text>
               </svg>
-              <div className="carousel-caption d-none d-md-block">
+              <div className="carousel-caption ">
                 <h5>User-Friendly Interface: </h5>
                 <p> Designed to help you focus on your thoughts, iNotebook keeps everything organized and easily accessible.</p>
               </div>

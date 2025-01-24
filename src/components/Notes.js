@@ -219,9 +219,9 @@ const Notes = (props) => {
 
             <div className="row my-3">
                 <h2 style={{ marginTop: "30px", marginBottom: "30px" }} ><strong>Your Notes</strong></h2>
-                {notes.map((note) => {
+                {notes.length===0?<div><h1>No notes have been added yet</h1></div>:(notes.map((note) => {
                     return <Noteitem note={note} updateNote={updateNote} permanentDelete={permanentDelete} key={note._id} />;
-                })}
+                }))}
             </div>
         </>
     )
